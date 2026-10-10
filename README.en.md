@@ -91,7 +91,7 @@ enabled = true          # enable module
 diff_max_rows = 10      # max entries per diff report
 audit_deep = false      # gc instance census in audit (global pause cost)
 render_card = true      # render reports as image cards
-theme = "auto"          # card theme (auto/light/dark)
+theme = "doodle"          # card style (doodle/editorial)
 ```
 
 | Option | Type | Default | Description |
@@ -100,7 +100,7 @@ theme = "auto"          # card theme (auto/light/dark)
 | `diff_max_rows` | int | `10` | Max entries per diff |
 | `audit_deep` | bool | `false` | gc instance census |
 | `render_card` | bool | `true` | Card rendering |
-| `theme` | str | `auto` | Card theme |
+| `theme` | str | `doodle` | Card style (doodle/editorial) |
 
 ---
 

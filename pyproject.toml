@@ -1,7 +1,7 @@
 [project]
 name = "ErisPulse-ShadowOps"
-version = "0.1.0"
-description = "影子灰度管理模块：启动/对比/转正/放弃影子模块，附归属权审计"
+version = "0.1.1"
+description = "影子灰度管理模块：启动/对比/转正/放弃影子模块，附归属权审计 —— Shadow rollout ops: start/diff/promote/dismiss shadow modules, with ownership audit"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [ { name = "wsu2059q" } ]
