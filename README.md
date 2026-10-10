@@ -98,7 +98,6 @@ epsdk install ErisPulse-ShadowOps
 
 ```toml
 [ShadowOps]
-enabled = true          # 是否启用模块
 diff_max_rows = 10      # 对比报告单次展示条目数
 audit_deep = false      # 审计附带 gc 实例普查（有全局暂停开销）
 render_card = true      # 报告用 Takumi 渲染为卡片
@@ -107,7 +106,6 @@ theme = "doodle"          # 卡片风格 (doodle/editorial)
 
 | 配置项 | 类型 | 默认值 | 说明 |
 |--------|------|--------|------|
-| `enabled` | bool | `true` | 是否启用模块 |
 | `diff_max_rows` | int | `10` | 对比报告条目上限 |
 | `audit_deep` | bool | `false` | gc 实例普查 |
 | `render_card` | bool | `true` | 卡片渲染 |

@@ -29,7 +29,6 @@ async def shadowbot(make_testbot):
         ops = module_mgr.get("ShadowOps")
 
         cfg = ops.cfg
-        cfg.enabled = True
         cfg.diff_max_rows = 10
         cfg.audit_deep = False
         cfg.render_card = False

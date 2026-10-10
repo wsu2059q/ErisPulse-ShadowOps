@@ -6,13 +6,6 @@ from ErisPulse.Core.Bases import BaseConfig
 @dataclass
 class ShadowOpsConfig(BaseConfig):
 
-    enabled: bool = field(
-        default=True,
-        metadata={
-            "description": {"i18n": "ShadowOps.enabled", "default": "是否启用模块"},
-            "ui": {"widget": "switch", "group": "basic", "order": 1},
-        },
-    )
     diff_max_rows: int = field(
         default=10,
         metadata={

@@ -29,7 +29,7 @@ class Main(BaseModule):
         return ModuleMeta(
             name="ShadowOps",
             description="影子灰度管理模块：启动/对比/转正/放弃影子模块，附归属权审计",
-            version="0.1.0",
+            version="0.1.2",
             author="ErisPulse-devs",
             group="运维",
             tags=["影子模块", "灰度", "热更新", "审计"],
@@ -37,10 +37,6 @@ class Main(BaseModule):
         )
 
     async def on_load(self, event: dict) -> bool:
-        if not self.cfg.enabled:
-            self.logger.info("影子灰度管理未启用（enabled=false）")
-            return True
-
         self._register_commands()
         self.logger.info(i18n.t("ShadowOps.module_loaded", event=event))
         return True
